@@ -1,0 +1,76 @@
+{
+    "pages": [
+        {
+            "category": "Новинки",
+            "products": [
+                {
+                    "title": "Сыворотка",
+                    "description": "Unstress Total Serenity Serum",
+                    "price": 10195,
+                    "image": "assets/serum.jpg"
+                },
+                {
+                    "title": "Тоник",
+                    "description": "Unstress Revitalizing Toner",
+                    "price": 3095,
+                    "image":"assets/revitializin.png"
+                },
+                {
+                    "title": "Тоник",
+                    "description": "Unstress Revitalizing Toner",
+                    "price": 3095,
+                    "image":"assets/revitializin.png"
+                }
+            ]
+        },
+        {
+            "category":"Акции",
+            "products":[
+                {
+                    "title":"Сыворотка",
+                    "description":"Muse Serum Supreme",
+                    "price_new":10195,
+                    "price_old":10195,
+                    "image":"assets/muse.png"
+                },
+                {
+                    "title":"Крем",
+                    "description":"Unstress Revitalizing Toner",
+                    "price_new":1595,
+                    "price_old":3195,
+                    "image":"assets/revital_toner.png"
+                },
+                {
+                    "title":"Тоник",
+                    "description":"Unstress Revitalizing Toner",
+                    "price_new":3095,
+                    "price_old":3095,
+                    "image":"assets/revitializin.png"
+                }
+            ]
+        },
+        {
+            "category":"Хиты",
+            "products": [
+                {
+                    "title":"Сыворотка",
+                    "description":"Forever Young-Total Renewal Serum",
+                    "price":10195,
+                    "image":"assets/young.png"
+                },
+                {
+                    "title":"Осветляющая маска",
+                    "description":"Illustious Mask",
+                    "price":1595,
+                    "image":"assets/mask.png"
+                },
+                {
+                    "title": "Тоник",
+                    "description": "Unstress Revitalizing Toner",
+                    "price": 3095,
+                    "image":"assets/revitializin.png"
+                }
+            ]
+        }
+    ]
+}
