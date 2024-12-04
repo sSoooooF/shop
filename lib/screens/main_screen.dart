@@ -471,7 +471,7 @@ class _MainScreenState extends State<MainScreen> {
       type: BottomNavigationBarType.fixed,
       items: const [
         BottomNavigationBarItem(
-          icon: Icon(Icons.house_outlined),
+          icon: Icon(Icons.home_outlined),
           label: "Главная",
         ),
         BottomNavigationBarItem(
@@ -548,7 +548,7 @@ class _MainScreenState extends State<MainScreen> {
                       ),
                       const Spacer(),
                       Text(
-                        schemas[index + 1],
+                        schemas[index],
                         style: const TextStyle(
                           fontFamily: 'Raleway',
                           fontSize: 12,

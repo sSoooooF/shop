@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop/screens/catalog_screen.dart';
 import 'package:shop/screens/main_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class App extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MainScreen(),
+      home: const CatalogScreen(),
     );
   }
 }
