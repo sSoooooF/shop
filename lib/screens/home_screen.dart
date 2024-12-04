@@ -2,15 +2,14 @@ import 'package:shop/constants/colors.dart';
 import 'package:shop/constants/text.dart';
 import 'package:flutter/material.dart';
 
-
-class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<StatefulWidget> createState() => _MainScreenState();
+  State<StatefulWidget> createState() => _HomeScreenState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+class _HomeScreenState extends State<HomeScreen> {
   int _currentBanner = 0;
 
   final List<String> _bannerImages = [
@@ -328,7 +327,6 @@ class _MainScreenState extends State<MainScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: myBottomNavigationBar(),
     );
   }
 
@@ -456,37 +454,6 @@ class _MainScreenState extends State<MainScreen> {
           );
         },
       ),
-    );
-  }
-
-  Widget myBottomNavigationBar() {
-    return BottomNavigationBar(
-      backgroundColor: Colors.white,
-      currentIndex: 0,
-      onTap: (index) {},
-      selectedItemColor: Colors.black,
-      unselectedItemColor: Colors.grey,
-      showSelectedLabels: true,
-      showUnselectedLabels: true,
-      type: BottomNavigationBarType.fixed,
-      items: const [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home_outlined),
-          label: "Главная",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.search_outlined),
-          label: "Поиск",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.shopping_cart_outlined),
-          label: "Корзина",
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.person_outline),
-          label: "Профиль",
-        ),
-      ],
     );
   }
 
